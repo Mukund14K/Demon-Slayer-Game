@@ -52,6 +52,6 @@ Clone the repository:
 git clone https://github.com/Mukund14K/Spirit-Hunter-Game.git
 
 Compile the source code (Example using G++):
-g++ main.cpp -lraylib -lopengl32 -lgdi32 -lwinmm -o SpiritHunter.exe
+g++ main.cpp -lraylib -lopengl32 -lgdi32 -lwinmm -o demon.exe
 
 Run the generated executable.
