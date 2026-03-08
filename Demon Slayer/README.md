@@ -1,4 +1,5 @@
 Demon Slayer: Survive the Demons
+
 Demon Slayer: Survive the Demons is a 3D survival action game built with C++ and the Raylib framework. Inspired by the Kimetsu no Yaiba universe, the game challenges players to survive a night on Fujikasane Mountain against an escalating swarm of demons.
 
 Gameplay Mechanics
@@ -31,17 +32,33 @@ Optimized Rendering: Uses Raylib's 3D RLGL and math headers for efficient drawin
 State-Based AI: Enemy logic is handled via a state-machine that manages pathfinding toward the player and sanctuary avoidance.
 
 Controls
+
+WASD: Movement
+
+SHIFT: Sprint (Consumes Breath)
+
+MOUSE LEFT: Attack
+
+MOUSE MOVE: Rotate Camera
+
+R: Restart (on Game Over)
+
 Installation and Setup
+
 Prerequisites
+
 A C++ compiler (GCC, Clang, or MSVC)
 
 Raylib 5.0+ installed on your local machine
 
 Building the Project
+
 Clone the repository:
+
 git clone https://github.com/Mukund14K/Demon-Slayer-Game.git
 
 Compile the source code (example using G++):
+
 g++ main.cpp -lraylib -lopengl32 -lgdi32 -lwinmm -o demon.exe
 
 Run the generated executable.
